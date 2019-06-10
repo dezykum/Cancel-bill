@@ -1,0 +1,58 @@
+{"carouselData":[{
+   "id": 0,
+  "name": "Samsung Refrigerator",
+  "description": "Highly efficient" ,
+  "price": "$100",
+  "src": "refrigerator.jpg"
+  },
+  { "id": 1,
+  "name": "LG Refrigerator",
+  "description": "Highly efficient" ,
+  "price": "$100",
+  "src": "lg_refrigerator.jpg"
+  },
+  { "id": 2,
+  "name": "Whirlpool Refrigerator",
+  "description": "Highly efficient" ,
+  "price": "$100",
+  "src": "whirlpool_refrigerator.png"
+  },
+  { "id": 3,
+  "name": "Samsung Dishwasher",
+  "description": "Highly efficient" ,
+  "price": "$100",
+  "src": "samsung_dishwasher.jpg"
+  },
+  { "id": 4,
+  "name": "Bosch Dishwasher",
+  "description": "Highly efficient" ,
+  "price": "$100",
+  "src": "Bosch-300-Series_dishwasher.jpg"
+  },
+  { "id": 5,
+  "name": "Miele Dishwasher",
+  "description": "Highly efficient" ,
+  "price": "$100",
+  "src": "Miele-Classic_dishwasher.jpeg"
+  },
+  { "id": 6,
+  "name": "GE Microwave",
+  "description": "Highly efficient" ,
+  "price": "$100",
+  "src": "ge_microwave.jpg"
+  },
+  { "id": 7,
+  "name": "LG Microwave",
+  "description": "Highly efficient" ,
+  "price": "$100",
+  "src": "LG_microwave.jpg"
+  },
+  { "id": 8,
+  "name": "Kenmore Microwave",
+  "description": "Highly efficient" ,
+  "price": "$100",
+  "src": "kenmore_microwave.jpg"
+  }
+
+]
+}

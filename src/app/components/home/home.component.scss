@@ -1,0 +1,63 @@
+.content {
+    padding-top: 5rem;
+    height: 100vh;
+    position: relative;
+    background:url('/../../assets/images/car-ins-img.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    &::before {
+      content: " ";
+      /* background: rgba(4, 8, 29, 0.4); */
+      position: absolute;
+      background:url('/../../assets/images/Banking-logo.svg');
+      background-repeat: no-repeat;
+      background-size: 25% 20%;
+      left: 90px;
+      top: 0px;
+      bottom: 0;
+      right: 0;
+      
+    }
+  }
+
+
+
+  @media screen and (max-width: 510px) {
+
+
+.content[_ngcontent-c1]::before {
+  content: " ";
+    position: absolute;
+    background: url(/../../assets/images/Banking-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 13% 20%;
+    left: 73px;
+    top: -20px;
+    bottom: 0;
+    right: 0;
+}
+  }
+
+
+
+
+  @media screen and (min-width: 900px) {
+
+  
+    .content[_ngcontent-c1]::after {
+      content: " ";
+      position: absolute;
+      background:url('/../../assets/images/content-left-banking.svg');
+      background-repeat: no-repeat;
+      background-size: 78% 70%;
+      max-width:350px;
+      left: 90px;
+      top: 410px;
+      bottom: 0;
+      right: 0;
+    }
+      }
+
+
+
+  
