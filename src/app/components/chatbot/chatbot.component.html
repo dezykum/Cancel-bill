@@ -47,13 +47,15 @@
 
 						
 
-                            <div *ngIf="(chat.slotToElicit =='CardTwo')"  >
-                              <ngx-slick-carousel class="carousel" #slickModal='slick-carousel' [config]="slideConfig" >
+                            <div *ngIf="(chat.slotToElicit =='CardTwo')">
+                                <div class="emptyDiv"></div>
+                              <ngx-slick-carousel class="carousel" #slickModal='slick-carousel' [config]="slideConfig">
                                 <div ngxSlickItem *ngFor="let slide of slides" class="slide" >
                                       <span class="carouselText">{{slide.cardName}}</span><br/>
                                       <span class="carouselText">{{slide.account}}</span><br/>
-                                      <span class="carouselText">{{slide.amount}}</span><br/>
-                                      <button class="btn btn-primary"  (click)="confirmButtonClick(slide.confirm)">
+                                      <span class="carouselText"><b>{{slide.amount}}</b></span><br/>
+                                      <span class="carouselText">{{slide.date}}</span><br/>
+                                      <button class=" btn-primary"  (click)="confirmButtonClick(slide.confirm)">
                                           {{slide.confirm}}</button>                                      
                                 </div>
 							  </ngx-slick-carousel>                              

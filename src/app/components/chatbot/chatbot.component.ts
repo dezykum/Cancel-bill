@@ -127,9 +127,9 @@ export class ChatbotComponent implements OnInit {
  
 
  slides = [
-  {cardName: "CX Bank Mortgage", account: "Account *1001",amount: "£1,450 Scheduled for March 5, 2019", confirm:"Bill 1"},
-  {cardName: "National Mobile", account: "Account *9999",amount: "£139.00 scheduled for March 10, 2019", confirm:"Bill 2"},
-  {cardName: "City Water", account: "Account *1234",amount: "£35.00 scheduled for March 1, 2019", confirm:"Bill 3"}
+  {cardName: "CX Bank Mortgage", account: "Account *1001",amount: "£1,450" , date:"Scheduled for March 5, 2019", confirm:"Bill 1"},
+  {cardName: "National Mobile", account: "Account *9999",amount: "£139.00", date:" scheduled for March 10, 2019", confirm:"Bill 2"},
+  {cardName: "City Water", account: "Account *1234",amount: "£35.00", date: "scheduled for March 1, 2019", confirm:"Bill 3"}
  
 ];
  carousel = [{ text: "Yes",val: "../../assets/images/doc1.jpg" },{ text: "No",val: "../../assets/images/doc2.jpg" }];

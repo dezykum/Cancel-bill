@@ -43,6 +43,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.slick-prev {
+  left: -17px !important;
+}
+.slick-next {
+  right: -17px !important;
+}
+
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   border: #F4F4F6 !important;
   box-shadow: none !important;

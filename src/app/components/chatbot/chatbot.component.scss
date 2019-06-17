@@ -141,6 +141,12 @@ app-chatbot {
       
     }
 
+    .btn-primary {
+      border-radius:40px;
+      min-width:90px !important;
+      margin-top:10px;
+    }
+
     .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
       border-color: #F4F4F6 !important;
   }
@@ -218,10 +224,11 @@ app-chatbot {
     .emptyDiv{
       height:20px;
       background-color:#F4F4F6;
-      margin-top: -5px;
-      border-radius: -2px;
-      margin-left: -6px;
-      margin-right: -7px;
+      margin-top: 0px;
+      border-radius: 2px;
+      margin-left: -11px;
+      margin-right: -11px;
+      padding:10px;
     }
 
     .wheelOption{
@@ -252,7 +259,8 @@ app-chatbot {
       float: right;
       margin-left: 36px;
       margin-right: 2rem;
-      background-color: #455df4;  
+      //background-color: #455df4;  
+      background-image: linear-gradient(#1b99f9, #206fab);
       border-radius: 8px;
       width: 80%;
 
@@ -260,7 +268,7 @@ app-chatbot {
      .carouselText{
        font-size:14px;
        font-family:arial;
-       color:#ffffff;
+       color:#000000;
      }
 
       .text {
@@ -394,6 +402,7 @@ app-chatbot {
     min-width: 73px !important;
     
   }
+  
   .chatbot {
     &__chat {
       .btn {
@@ -480,9 +489,17 @@ app-chatbot {
 .carousel {
   height: 150px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #1b99f9;
   border-radius: 5px;
-  padding: 4px;
+  background-color:#ffffff;
+  margin-top: -10px;
+    margin-bottom: -9px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 10%;
+  // position: absolute;
+  // width: 90%;
+  // margin-top: 15px;
 
   .carousel-inner .item {
     border: 1px solid #f0f0f0;
