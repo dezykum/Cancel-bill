@@ -64,8 +64,7 @@ export class ChatbotComponent implements OnInit {
   public myCredentials = new AWS.CognitoIdentityCredentials( { IdentityPoolId: 'us-east-1:2063fcc9-c31a-49bb-a2dd-c5511338e8bd' } );
     public config = new AWS.Config( {
         credentials: this.myCredentials,
-        //accessKeyId:'AKIAJ3PX4W742KE2NQNA',
-        //secretAccessKey:'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',
+        
 
         region: 'us-east-1'
     } );
